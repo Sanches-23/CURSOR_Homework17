@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/github.io/CURSOR_Homework17/static/css/main.073c9b0a.css",
-    "main.js": "/github.io/CURSOR_Homework17/static/js/main.b1a53d66.js",
+    "main.css": "/github.io/CURSOR_Homework17/static/css/main.3a7d921a.css",
+    "main.js": "/github.io/CURSOR_Homework17/static/js/main.9ea254c6.js",
     "static/js/787.6fa68ef3.chunk.js": "/github.io/CURSOR_Homework17/static/js/787.6fa68ef3.chunk.js",
-    "static/media/logo.svg": "/github.io/CURSOR_Homework17/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/github.io/CURSOR_Homework17/index.html",
-    "main.073c9b0a.css.map": "/github.io/CURSOR_Homework17/static/css/main.073c9b0a.css.map",
-    "main.b1a53d66.js.map": "/github.io/CURSOR_Homework17/static/js/main.b1a53d66.js.map",
+    "main.3a7d921a.css.map": "/github.io/CURSOR_Homework17/static/css/main.3a7d921a.css.map",
+    "main.9ea254c6.js.map": "/github.io/CURSOR_Homework17/static/js/main.9ea254c6.js.map",
     "787.6fa68ef3.chunk.js.map": "/github.io/CURSOR_Homework17/static/js/787.6fa68ef3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.b1a53d66.js"
+    "static/css/main.3a7d921a.css",
+    "static/js/main.9ea254c6.js"
   ]
 }
