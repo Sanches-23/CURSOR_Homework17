@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #282c34;
+    height: 100vh;
+}
+
+.mainContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    padding: 15px;
+    width: 650px;
+    height: 700px;
+    box-shadow: 10px 10px 5px 2px black;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.mainContainer::before {
+    content: "";
+    border-radius: 15px;
+    background: conic-gradient(greenyellow 25deg, red 70deg, transparent 140deg);
+    width: 160%;
+    height: 160%;
+    position: absolute;
+    animation: rotate 2.5s linear infinite;
+}
+
+.mainContainer::after {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    content: "ANIMATION";
+    position: absolute;
+    color: orange;
+    font-size: 20px;
+    line-height: 2;
+    border-radius: 12px;
+    width: 630px;
+    height: 680px;
+    background: #282c34;
+    box-shadow: inset 15px 15px 15px black;
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}
