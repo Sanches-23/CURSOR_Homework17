@@ -1,0 +1,12 @@
+
+.contact {
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(to right, greenyellow, #FF0000FF);
+    border-image-slice: 1;
+    font-weight: bold;
+    font-size: 18px;
+    color: #ccc;
+}
